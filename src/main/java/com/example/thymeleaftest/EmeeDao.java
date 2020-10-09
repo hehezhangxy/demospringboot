@@ -14,8 +14,7 @@ public class EmeeDao {
     private DepartDao departDao;
     static {
         emees = new HashMap<Integer, Emee>();
-        emees.put(100, new Emee(1000,"aa","eeee@ee",1,new Depart(100,"jiao"), new Date()));
-
+        emees.put(1000, new Emee(1000,"aa","eeee@ee",1,new Depart(100,"jiao"), new Date()));
     }
     private static Integer initid = 1007;
 
